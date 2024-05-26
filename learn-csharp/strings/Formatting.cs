@@ -5,11 +5,11 @@ public class Formatting
     public static void FormattingMain()
     {
         int[] quarters = { 1, 2, 3, 4 };
-        int[] sales = { 100000, 150000, 200000, 225000 };
+        int[] sales = [100000, 150000, 200000, 225000];
         double[] intlMixPct = { .386, .413, .421, .457 };
-        string str = "TestString";
-        int value1 = 1234;
-        decimal value2 = 1234.5678m;
+        const string str = "TestString";
+        const int value1 = 1234;
+        const decimal value2 = 1234.5678m;
 
         Console.WriteLine("{0}", str);
         Console.WriteLine("{0:D}, {0:N}, {0:F}, {0:G}", value1);

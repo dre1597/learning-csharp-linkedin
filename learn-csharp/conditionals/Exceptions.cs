@@ -4,9 +4,8 @@ public class Exceptions
 {
     public static void ExceptionsMain()
     {
-        var x = 100;
-        var y = 10;
-        int result;
+        const int x = 100;
+        const int y = 10;
 
         try
         {
@@ -15,7 +14,7 @@ public class Exceptions
                 throw new ArgumentOutOfRangeException("x", "x has to be 1000 or less");
             }
 
-            result = x / y;
+            const int result = x / y;
             Console.WriteLine("THe result is: {0}", result);
         }
         catch (DivideByZeroException e)

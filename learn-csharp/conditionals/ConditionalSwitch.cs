@@ -4,7 +4,7 @@ public class ConditionalSwitch
 {
     public static void ConditionalSwitchMain()
     {
-        int value = 50;
+        const int value = 50;
 
         switch (value)
         {

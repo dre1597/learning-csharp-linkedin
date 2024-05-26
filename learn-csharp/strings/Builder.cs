@@ -7,8 +7,8 @@ public class Builder
     public static void BuilderMain()
     {
         var sb = new StringBuilder("Initial String. ", 200);
-        int count = 10;
-        string[] animals = {"goats", "cats", "dogs"};
+        const int count = 10;
+        string[] animals = ["goats", "cats", "dogs"];
 
         Console.WriteLine($"Capacity: {sb.Capacity}; Length: {sb.Length}");
 

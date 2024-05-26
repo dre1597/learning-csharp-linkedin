@@ -4,12 +4,12 @@ public class ForLoops
 {
     public static void ForLoopsMain()
     {
-        int value = 15;
-        int[] nums = new int [] {3, 14, 15, 92, 64};
-        string str = "Hello, World!";
+        const int value = 15;
+        var nums = new int [] {3, 14, 15, 92, 64};
+        const string str = "Hello, World!";
 
         Console.WriteLine("The basic for loop:");
-        for (int i = 0; i < value; i++) {
+        for (var i = 0; i < value; i++) {
             Console.WriteLine("i is currently {0}", i);
         }
         Console.WriteLine();

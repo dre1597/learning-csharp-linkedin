@@ -6,7 +6,7 @@ public class HelloWorld
     {
         Console.WriteLine("Hello, World!");
         Console.WriteLine("What is your name?");
-        string name = Console.ReadLine();
+        var name = Console.ReadLine();
         Console.WriteLine($"Hello, {name}!");
     }
 }

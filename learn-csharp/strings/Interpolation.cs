@@ -4,11 +4,11 @@ public class Interpolation
 {
     public static void InterpolationMain()
     {
-        string make = "Ford";
-        string model = "Mustang";
-        int year = 1969;
-        float miles = 123456.789f;
-        decimal price = 123456.789m;
+        const string make = "Ford";
+        const string model = "Mustang";
+        const int year = 1969;
+        const float miles = 123456.789f;
+        const decimal price = 123456.789m;
 
         Console.WriteLine("This car is a {0} {1} from {2}. It has {3} miles and costs ${4}", make, model, year, miles, price);
         Console.WriteLine($"This car is a {make} {model} from {year}. It has {miles} miles and costs ${price:C2}");

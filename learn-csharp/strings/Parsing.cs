@@ -6,10 +6,10 @@ public class Parsing
 {
     public static void ParsingMain()
     {
-        string numStr1 = "1";
-        string numStr2 = "2.00";
-        string numStr3 = "3,000";
-        string numStr4 = "3,000.00";
+        const string numStr1 = "1";
+        const string numStr2 = "2.00";
+        const string numStr3 = "3,000";
+        const string numStr4 = "3,000.00";
 
         int targetNum;
         try {

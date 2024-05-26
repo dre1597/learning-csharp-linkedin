@@ -4,10 +4,9 @@ public class Operations
 {
     public static void OperationsMain()
     {
-        string outstr;
-        var str1 = "The quick brown fox jumps over the lazy dog.";
-        var str2 = "This is a string";
-        var str3 = "THIS is a STRING";
+        const string str1 = "The quick brown fox jumps over the lazy dog.";
+        const string str2 = "This is a string";
+        const string str3 = "THIS is a STRING";
         string[] strs = ["one", "two", "three", "four"];
 
         Console.WriteLine(str1.Length);
@@ -23,7 +22,7 @@ public class Operations
             break;
         }
 
-        outstr = String.Concat(strs);
+        var outstr = String.Concat(strs);
         Console.WriteLine(outstr);
 
         outstr = String.Join(".", strs);
@@ -31,10 +30,10 @@ public class Operations
         outstr = String.Join("---", strs);
         Console.WriteLine(outstr);
 
-        int result = String.CompareOrdinal(str2, "This is a string");
+        var result = String.CompareOrdinal(str2, "This is a string");
         Console.WriteLine("{0}", result);
 
-        bool isEqual = str2.Equals(str3);
+        var isEqual = str2.Equals(str3);
         Console.WriteLine("{0}", isEqual);
 
         Console.WriteLine("{0}", str1.IndexOf('e'));

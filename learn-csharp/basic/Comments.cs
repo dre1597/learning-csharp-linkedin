@@ -10,7 +10,7 @@ public class Comments
     /// <returns>
     /// No return value
     /// </returns>
-    public static void Main(string[] args)
+    public static void CommentsMain(string[] args)
     {
         // Single line comments
         Console.WriteLine("Hello World");

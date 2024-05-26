@@ -2,7 +2,7 @@ namespace learn_csharp.basic;
 
 public class Operations
 {
-    public static void Main()
+    public static void OperationsMain()
     {
         int x = 10, y = 5;
         string a = "10", b = "5";

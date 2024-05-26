@@ -6,7 +6,7 @@ public class Variables
     {
     }
 
-    public static void Main()
+    public static void VariablesMain()
     {
         int i = 10;
         float f = 3.14f;

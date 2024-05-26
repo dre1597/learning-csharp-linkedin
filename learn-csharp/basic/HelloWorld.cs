@@ -2,7 +2,7 @@ namespace learn_csharp.basic;
 
 public class HelloWorld
 {
-    public static void Main()
+    public static void HelloWorldMain()
     {
         Console.WriteLine("Hello, World!");
         Console.WriteLine("What is your name?");

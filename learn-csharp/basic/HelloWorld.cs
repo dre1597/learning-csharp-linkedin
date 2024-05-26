@@ -1,4 +1,4 @@
-namespace learn_csharp;
+namespace learn_csharp.basic;
 
 public class HelloWorld
 {
